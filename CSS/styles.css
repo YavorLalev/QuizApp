@@ -8,9 +8,20 @@ body {
   font-family: monospace;
 }
 
+h1 {
+  font-size: 2rem;
+}
 .header {
   background: #ffeb99;
   color: aliceblue;
   display: flex;
   justify-content: center;
+  padding: 20px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  box-shadow: 8px 8px 8px;
+}
+:hover.header__title {
+  color: rgb(139, 212, 212);
 }
