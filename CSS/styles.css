@@ -22,11 +22,11 @@ ul {
   padding: 10px;
   border-radius: 4px;
   width: 100%;
+  position: sticky;
   top: 0;
   z-index: 1;
 }
-:hover.header__title,
-.button {
+:hover.header__title {
   color: rgb(139, 212, 212);
 }
 
@@ -51,4 +51,7 @@ ul {
   border: none;
   border-radius: 4px;
   padding: 6px;
+}
+:hover.button {
+  color: rgb(139, 212, 212);
 }
