@@ -6,11 +6,24 @@ body {
   display: flex;
   flex-direction: column;
   font-family: monospace;
+
 }
 
+h1 {
+    font-size:2rem;
+
+}
 .header {
   background: #ffeb99;
   color: aliceblue;
   display: flex;
   justify-content: center;
+  padding: 20px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+
+}
+:hover.header__title {
+    color: rgb(139, 212, 212);
 }
