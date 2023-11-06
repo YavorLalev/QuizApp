@@ -31,7 +31,7 @@ ul {
 }
 
 .card {
-  margin: 30px;
+  margin: 40px;
   margin-left: 40px;
   margin-right: 40px;
   border: 1px solid rgb(150, 222, 222);
@@ -45,7 +45,7 @@ ul {
 }
 
 .card__bookmark {
-  max-width: 56px;
+  max-width: 50px;
   position: absolute;
   top: -24px;
   right: 10px;
@@ -61,4 +61,22 @@ ul {
 }
 :hover.button {
   color: rgb(139, 212, 212);
+}
+
+.footer {
+  background: #ffeb99;
+  color: aliceblue;
+  height: 60px;
+  border-radius: 4px;
+  width: 98%;
+  position: fixed;
+  bottom: 0;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-around;
+}
+#menu_bookmark {
+  max-width: 50px;
 }
