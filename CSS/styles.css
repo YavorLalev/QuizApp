@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: monospace;
+}
+
+.header {
+  background: #ffeb99;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+}
