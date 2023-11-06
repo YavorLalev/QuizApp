@@ -45,9 +45,9 @@ ul {
 }
 
 .card__bookmark {
-  max-width: 10%;
+  max-width: 56px;
   position: absolute;
-  top: -20px;
+  top: -24px;
   right: 10px;
 }
 
