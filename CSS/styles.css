@@ -19,7 +19,7 @@ ul {
   color: aliceblue;
   display: flex;
   justify-content: center;
-  padding: 10px;
+  padding: 6px;
   border-radius: 4px;
   width: 100%;
   position: sticky;
@@ -42,6 +42,7 @@ ul {
 .card__heading {
   display: flex;
   justify-content: center;
+  padding: 10px;
 }
 
 .card__bookmark {
@@ -58,6 +59,10 @@ ul {
   border: none;
   border-radius: 4px;
   padding: 6px;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 :hover.button {
   color: rgb(139, 212, 212);
@@ -77,6 +82,11 @@ ul {
   display: flex;
   justify-content: space-around;
 }
-#menu_bookmark {
+#menu__bookmark {
   max-width: 50px;
+  max-height: 40px;
+}
+#menu__icons {
+  max-width: 32px;
+  max-height: 40px;
 }
