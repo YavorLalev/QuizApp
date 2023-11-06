@@ -9,7 +9,8 @@ body {
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 2.2rem;
+  
 }
 ul {
   list-style: none;
@@ -27,6 +28,10 @@ ul {
 }
 :hover.header__title,
 .button {
+  border-radius: 4px;
+}
+
+:hover.header__title 
   color: rgb(139, 212, 212);
 }
 
