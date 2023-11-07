@@ -25,6 +25,10 @@ ul {
   top: 0;
   z-index: 1;
 }
+
+.header__title {
+  color: black;
+}
 .header__title:hover {
   color: rgb(139, 212, 212);
 }
@@ -60,6 +64,7 @@ ul {
   text-transform: lowercase;
   font-size: 1rem;
   background: #ffeb99;
+  color: black;
   border: none;
   border-radius: 4px;
   padding: 6px;
@@ -74,6 +79,9 @@ ul {
   color: rgb(139, 212, 212);
 }
 
+.answer {
+  display: none;
+}
 .card__tags {
   color: white;
   text-transform: lowercase;
