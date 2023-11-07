@@ -30,6 +30,9 @@ ul {
 }
 
 .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   margin: 40px;
   margin-left: 40px;
   margin-right: 40px;
@@ -55,16 +58,19 @@ ul {
 .button {
   color: white;
   text-transform: lowercase;
+  font-size: 1rem;
   background: #ffeb99;
   border: none;
   border-radius: 4px;
   padding: 6px;
   position: absolute;
-  top: 56%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.button:hover {
+.button:hover,
+:focus,
+:active {
   color: rgb(139, 212, 212);
 }
 
@@ -74,7 +80,7 @@ ul {
   font-size: 1rem;
   display: flex;
   margin-bottom: 0;
-  margin-top: 80px;
+  margin-top: 100px;
   padding-left: 0;
   gap: 10px;
 }
