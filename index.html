@@ -12,11 +12,11 @@
     <main>
       <section class="card">
         <h2 class="card__heading">Question 1</h2>
-        <button class="button">Show Answer</button>
+        <button aria-label="Show answer" class="button">Show Answer</button>
           
         <img src="assets/bookmark_120208.png" 
-        class="card__bookmark"
-        aria-label="A bookmark icon">
+            class="card__bookmark"
+            alt="A bookmark icon">
         
           <ul class="card__tags">
             <li class="tag">#Tag 1</li>
@@ -27,8 +27,12 @@
 
       <section class="card">
         <h2 class="card__heading">Question 2</h2>
+
         <button class="button">Show Answer</button>
-        <img src="assets/bookmark_120208.png" class="card__bookmark">
+        
+        <img src="assets/bookmark_120208.png" 
+            alt="A bookmark icon" class="card__bookmark">
+
           <ul class="card__tags">
             <li class="tag">#Tag 1</li>
             <li class="tag">#Tag 2</li>
@@ -41,9 +45,11 @@
     <footer class="footer">
       <nav>
         <ul class="navigation">
-          <li><img src="assets/home.png" id="menu__icons"></li>
-          <li><img src="assets/bookmark_120208.png" id="menu__bookmark"></li>
-          <li><img src="assets/user.png" id="menu__icons" /></li>
+          <li><img src="assets/home.png" alt="home icon" id="menu__icons"></li>
+
+          <li><img src="assets/bookmark_120208.png" alt="Bookmark icon" id="menu__bookmark"></li>
+
+          <li><img src="assets/user.png" alt="User profile icon" id="menu__icons" /></li>
         </ul>
       </nav>
     </footer>
