@@ -8,6 +8,10 @@ body {
   font-family: monospace;
 }
 
+main {
+  flex: 1;
+}
+
 h1 {
   font-size: 2rem;
 }
@@ -24,7 +28,6 @@ ul {
   border-radius: 4px;
   width: 100%;
   top: 0;
-  z-index: 1;
 }
 
 .header__title {
@@ -111,7 +114,6 @@ ul {
   height: 56px;
   border-radius: 4px;
   width: 98%;
-  position: fixed;
   bottom: 0;
 }
 
@@ -126,8 +128,4 @@ ul {
 #menu__icons {
   max-width: 32px;
   max-height: 40px;
-}
-
-.active {
-  background-color: black;
 }
