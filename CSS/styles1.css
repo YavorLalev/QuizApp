@@ -9,7 +9,6 @@ body {
   gap: 2rem;
   margin: 0;
   padding: 2rem;
-  min-height: 50vh;
 }
 main {
   flex: 1;
@@ -41,6 +40,17 @@ ul {
   color: rgb(139, 212, 212);
 }
 
+.profile {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+
+.profile_picture {
+  max-height: 40%;
+  border-radius: 50%;
+  border: solid 8px;
+}
 .button {
   color: white;
   text-transform: lowercase;
