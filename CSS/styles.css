@@ -11,6 +11,7 @@ body {
 h1 {
   font-size: 2rem;
 }
+
 ul {
   list-style: none;
 }
@@ -80,17 +81,22 @@ ul {
 }
 
 .answer {
+  position: absolute;
   display: none;
+  top: 66%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .card__tags {
-  color: white;
+  color: black;
   text-transform: lowercase;
-  font-size: 1rem;
+  font-size: 0.9rem;
   display: flex;
+  justify-content: flex-start;
   margin-bottom: 0;
   margin-top: 100px;
   padding-left: 0;
-  gap: 10px;
+  gap: 16px;
 }
 
 .tag {
@@ -120,4 +126,8 @@ ul {
 #menu__icons {
   max-width: 32px;
   max-height: 40px;
+}
+
+.active {
+  background-color: black;
 }
