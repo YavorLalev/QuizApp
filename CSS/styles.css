@@ -7,7 +7,6 @@ body {
   flex-direction: column;
   font-family: monospace;
 }
-
 main {
   flex: 1;
 }
@@ -77,9 +76,7 @@ ul {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.button:hover,
-:focus,
-:active {
+.button:hover {
   color: rgb(139, 212, 212);
 }
 
@@ -114,6 +111,7 @@ ul {
   height: 56px;
   border-radius: 4px;
   width: 98%;
+  position: fixed;
   bottom: 0;
 }
 
