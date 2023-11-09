@@ -83,6 +83,7 @@ ul {
 
 .toggle-button:hover {
   color: rgb(139, 212, 212);
+  background-color: black;
 }
 .answer {
   position: absolute;
