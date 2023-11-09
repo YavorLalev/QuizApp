@@ -4,12 +4,13 @@
     <meta charset="utf-8" />
     <title>QuizApp</title>
     <link rel="stylesheet" href="/CSS/styles.css" />
+    <script src="./index.js" defer></script>
   </head>
-  <body>
+  <body data-js="body">
     <header class="header">
       <h1 class="header__title">QuizApp</h1>
     </header>
-    <main>
+    <div>
       <section class="profile">
         <h2 class="profile_name">Billy Joe</h2>
         <figure><img class="profile_picture" src="assets/pirat.png" /></figure>
@@ -28,14 +29,14 @@
       </section>
 
       <section class="counters">
-        <button class="questions"></button>
-        <button class="bookmarks"></button>
+        <button class="questions">Questions</button>
+        <button class="bookmarks">Bookmarks</button>
       </section>
 
-      <section>
+      <section class="settings">
         <h3>Settings</h3>
         <h4>Dark Mode</h4>
-        <button class="switch"></button>
+        <button class="toggle-button" data-js="toggle-button">Dark Mode</button>
       </section>
     </main>
 
