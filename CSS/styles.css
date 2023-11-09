@@ -80,6 +80,10 @@ ul {
 .button:hover {
   color: rgb(139, 212, 212);
 }
+
+.toggle-button:hover {
+  color: rgb(139, 212, 212);
+}
 .answer {
   position: absolute;
   display: none;
@@ -118,24 +122,50 @@ ul {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  border: 1px solid rgba(139, 212, 212, 0.519);
+  /*border: 1px solid rgba(139, 212, 212, 0.519);*/
+  margin: 2rem;
+  padding: 0.5rem;
+  max-width: 600px;
+}
+
+.counters {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
   margin: 2rem;
   padding: 1rem;
   max-width: 600px;
 }
+.toggle-button,
+.questions,
+.bookmarks {
+  color: white;
+  text-transform: lowercase;
+  font-size: 1rem;
+  background: #ffeb99;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  padding: 6px;
+}
+
 .tag {
   background-color: rgba(139, 212, 212, 0.519);
   border-radius: 4px;
   padding: 2px;
 }
 
+body.dark {
+  background-color: rgb(43, 43, 43);
+  color: white;
+}
 .footer {
   background: #ffeb99;
   color: aliceblue;
   height: 56px;
   border-radius: 4px;
   width: 98%;
-  position: sticky;
+  position: fixed;
   bottom: 0;
 }
 
