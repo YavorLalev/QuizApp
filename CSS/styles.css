@@ -25,7 +25,7 @@ ul {
   color: aliceblue;
   display: flex;
   justify-content: center;
-  padding: 2px;
+  padding: 1rem;
   border-radius: 4px;
   width: 100%;
   top: 0;
@@ -176,9 +176,9 @@ body.dark {
   color: aliceblue;
   height: 56px;
   border-radius: 4px;
-  width: 98%;
-  position: fixed;
+  width: 100%;
   bottom: 0;
+  position: fixed;
 }
 
 .navigation {
