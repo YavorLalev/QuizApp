@@ -1,0 +1,77 @@
+:root {
+  --primary-color: #ffeb99;
+  --secondary-color: #96dede;
+  --tertiary-color: #000000;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: monospace;
+  align-items: center;
+  font-size: 0.9rem;
+  gap: 2rem;
+  margin: 0;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 80px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main {
+  flex: 1;
+}
+ul {
+  list-style: none;
+}
+
+.profile {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 2rem;
+  max-width: 600px;
+}
+.profile_picture {
+  max-width: 40%;
+  border-radius: 50%;
+  border: solid 8px;
+}
+
+.aboutme {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border: 1px solid var(--secondary-color);
+  margin: 2rem;
+  padding: 0.5rem;
+  max-width: 600px;
+}
+
+.settings {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border: 1px solid var(--secondary-color);
+  max-width: 600px;
+  margin: 2rem;
+  padding: 0.5rem;
+}
+
+body.dark {
+  background-color: rgb(43, 43, 43);
+  color: white;
+}
+
+.current {
+  color: var(--tertiary-color);
+}

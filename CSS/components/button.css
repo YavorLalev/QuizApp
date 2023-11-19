@@ -1,0 +1,59 @@
+.button {
+  color: white;
+  text-transform: lowercase;
+  font-size: 1rem;
+  background: #ffeb99;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  padding: 6px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.button:hover {
+  color: rgb(139, 212, 212);
+}
+
+.toggle-button:hover {
+  color: rgb(139, 212, 212);
+  background-color: black;
+}
+
+.counters {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 2rem;
+  padding: 0.3rem;
+  max-width: 600px;
+}
+.toggle-button {
+  text-transform: lowercase;
+  font-size: 0.9rem;
+  background: var(--primary-color);
+  color: var(--tertiary-color);
+  border: none;
+  border-radius: 4px;
+  padding: 6px;
+}
+
+.questions,
+.bookmarks {
+  text-transform: lowercase;
+  font-size: 0.9rem;
+  background: var(--primary-color);
+  color: var(--tertiary-color);
+  border: none;
+  border-radius: 4px;
+  padding: 6px;
+}
+
+.answer {
+  position: absolute;
+  display: none;
+  top: 66%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

@@ -1,0 +1,44 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 400px;
+  margin: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding: 20px;
+  border: 1px solid var(--secondary-color);
+  box-shadow: 2px 2px 4px 2px rgb(240, 240, 240);
+  border-radius: 4px;
+  position: relative;
+}
+
+.card__heading {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.card__bookmark {
+  max-width: 50px;
+  position: absolute;
+  top: -24px;
+  right: 10px;
+}
+
+.card__tags {
+  color: black;
+  text-transform: lowercase;
+  font-size: 0.9rem;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 0;
+  margin-top: 100px;
+  padding-left: 0;
+  gap: 16px;
+}
+.tag {
+  background-color: rgba(139, 212, 212, 0.519);
+  border-radius: 4px;
+  padding: 2px;
+}

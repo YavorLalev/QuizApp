@@ -1,0 +1,22 @@
+.footer {
+  background: var(--primary-color);
+  height: 56px;
+  border-radius: 4px;
+  width: 100%;
+  bottom: 0;
+  position: fixed;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-around;
+}
+
+#menu__bookmark {
+  max-width: 44px;
+  max-height: 40px;
+}
+#menu__icons {
+  max-width: 32px;
+  max-height: 40px;
+}
