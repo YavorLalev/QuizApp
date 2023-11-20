@@ -1,9 +1,17 @@
+button {
+  background: transparent;
+  box-shadow: 0px 0px 0px transparent;
+  border: 0px solid transparent;
+  text-shadow: 0px 0px 0px transparent;
+}
+
 .button {
   color: white;
   text-transform: lowercase;
   font-size: 1rem;
-  background: #ffeb99;
-  color: black;
+  background: var(--primary-color);
+  box-shadow: 2px 2px 4px 2px rgb(240, 240, 240);
+  color: var(--tertiary-color);
   border: none;
   border-radius: 4px;
   padding: 6px;
@@ -13,15 +21,15 @@
   transform: translate(-50%, -50%);
 }
 .button:hover {
-  color: rgb(139, 212, 212);
+  color: var(--secondary-color);
 }
 
 .toggle-button:hover {
-  color: rgb(139, 212, 212);
-  background-color: black;
+  color: var(--secondary-color);
+  background-color: var(--tertiary-color);
 }
 
-.counters {
+.stats {
   display: flex;
   justify-content: center;
   gap: 1rem;
@@ -29,25 +37,21 @@
   padding: 0.3rem;
   max-width: 600px;
 }
+
+.stats-button,
 .toggle-button {
   text-transform: lowercase;
   font-size: 0.9rem;
   background: var(--primary-color);
+  box-shadow: 1px 1px 2px 1px rgb(240, 240, 240);
   color: var(--tertiary-color);
   border: none;
   border-radius: 4px;
   padding: 6px;
 }
 
-.questions,
-.bookmarks {
-  text-transform: lowercase;
-  font-size: 0.9rem;
-  background: var(--primary-color);
-  color: var(--tertiary-color);
-  border: none;
-  border-radius: 4px;
-  padding: 6px;
+.stats-button:hover {
+  color: var(--secondary-color);
 }
 
 .answer {

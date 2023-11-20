@@ -4,8 +4,7 @@
   justify-content: center;
   max-width: 400px;
   margin: 40px;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-top: -10px;
   padding: 20px;
   border: 1px solid var(--secondary-color);
   box-shadow: 2px 2px 4px 2px rgb(240, 240, 240);
@@ -13,20 +12,20 @@
   position: relative;
 }
 
-.card__heading {
+h2 {
   display: flex;
   justify-content: center;
   padding: 10px;
 }
 
-.card__bookmark {
+.card-bookmark {
   max-width: 50px;
   position: absolute;
   top: -24px;
   right: 10px;
 }
 
-.card__tags {
+.card-tags {
   color: black;
   text-transform: lowercase;
   font-size: 0.9rem;
