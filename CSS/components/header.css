@@ -1,0 +1,19 @@
+h1 {
+  font-size: 2rem;
+}
+
+.header {
+  background: var(--primary-color);
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  border-radius: 4px;
+  width: 100%;
+  top: 0;
+}
+.header__title {
+  color: var(--tertiary-color);
+}
+.header__title:hover {
+  color: var(--secondary-color);
+}
