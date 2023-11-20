@@ -7,43 +7,49 @@
     <script src="./index.js" defer></script>
   </head>
   <body data-js="body">
-    <header class="header">
-      <h1 class="header__title">QuizApp</h1>
+    <header>
+      <h1 class="header-title">QuizApp</h1>
     </header>
     <main>
-      <section class="profile">
-        <h2 class="profile_name">Billy Joe</h2>
-        <figure>
-          <img
-            class="profile_picture"
-            src="assets/pirat.png"
-            alt="Clipart Pirat"
-          />
-        </figure>
-      </section>
+      <article>
+        <section class="profile">
+          <h2>Billy Joe</h2>
+          <figure>
+            <img
+              class="profile-picture"
+              src="assets/pirat.png"
+              alt="Clipart Pirat"
+            />
+          </figure>
+        </section>
 
-      <section class="aboutme">
-        <h3>About me</h3>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur.
-        </p>
-      </section>
+        <section class="profile-section">
+          <h3>About me</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur.
+          </p>
 
-      <section class="counters">
-        <button class="questions">Questions</button>
-        <button class="bookmarks">Bookmarks</button>
-      </section>
+          <div class="stats">
+            <button class="stats-button">Questions</button>
+            <button class="stats-button">Bookmarks</button>
+          </div>
+        </section>
+      </article>
 
-      <section class="settings">
+      <section class="profile-section">
         <h3>Settings</h3>
 
         <h4>Dark Mode</h4>
-        <button class="toggle-button" data-js="toggle-button">Dark Mode</button>
+        <div class="stats">
+          <button class="toggle-button" data-js="toggle-button">
+            dark Mode
+          </button>
+        </div>
       </section>
     </main>
 

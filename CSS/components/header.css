@@ -1,9 +1,11 @@
 h1 {
   font-size: 2rem;
+  color: var(--tertiary-color);
 }
 
-.header {
+header {
   background: var(--primary-color);
+  box-shadow: 2px 2px 4px 2px rgb(240, 240, 240);
   display: flex;
   justify-content: center;
   padding: 1rem;
@@ -11,9 +13,6 @@ h1 {
   width: 100%;
   top: 0;
 }
-.header__title {
-  color: var(--tertiary-color);
-}
-.header__title:hover {
+.header-title:hover {
   color: var(--secondary-color);
 }
