@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>QuizApp</title>
+    <link rel="stylesheet" href="/CSS/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@1,700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="./index.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1 class="header-title">QuizApp</h1>
+    </header>
+    <main>
+      <form>
+        <fieldset class="form">
+          <label for="your-question">Your question:</label>
+          <textarea id="your-question" name="your-question"></textarea>
+
+          <label for="your-answer">Your answer:</label>
+          <textarea id="your-answer" name="your-answer"></textarea>
+
+          <label for="tag">Tag:</label>
+          <input type="text" id="tag" name="tag" />
+
+          <button type="submit" class="submit-button">Submit</button>
+        </fieldset>
+      </form>
+    </main>
+    <footer class="footer">
+      <nav>
+        <ul class="navigation">
+          <li>
+            <a href="index.html"
+              ><img src="assets/home.png" alt="home icon" id="menu__icons"
+            /></a>
+          </li>
+
+          <li>
+            <a href="bookmarks.html"
+              ><img
+                src="assets/bookmark_120208.png"
+                alt="Bookmark icon"
+                id="menu__bookmark"
+            /></a>
+          </li>
+          <li>
+            <a href="form.html"
+              ><img src="assets/add-icon.png" alt="Form Icon" id="menu__icons"
+            /></a>
+          </li>
+
+          <li>
+            <a href="profile.html"
+              ><img
+                src="assets/user.png"
+                alt="User profile icon"
+                id="menu__icons"
+            /></a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>
