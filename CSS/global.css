@@ -36,7 +36,8 @@ ul {
   list-style: none;
 }
 
-article {
+article,
+fieldset {
   border: 1px solid var(--secondary-color);
   box-shadow: 2px 2px 4px 2px rgb(240, 240, 240);
   border-radius: 4px;
@@ -63,4 +64,11 @@ article {
   margin: 2rem;
   padding: 0.5rem;
   max-width: 600px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
 }

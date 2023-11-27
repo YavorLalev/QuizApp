@@ -20,13 +20,28 @@ button {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.button:hover {
+.button:hover,
+.submit-button:hover,
+.stats-button:hover {
   color: var(--secondary-color);
+  cursor: pointer;
 }
 
 .toggle-button:hover {
   color: var(--secondary-color);
   background-color: var(--tertiary-color);
+  cursor: pointer;
+}
+
+.submit-button {
+  text-transform: lowercase;
+  font-size: 1rem;
+  background: var(--primary-color);
+  box-shadow: 2px 2px 4px 2px rgb(240, 240, 240);
+  color: var(--tertiary-color);
+  border: none;
+  border-radius: 4px;
+  margin-top: 20px;
 }
 
 .stats {
@@ -48,10 +63,6 @@ button {
   border: none;
   border-radius: 4px;
   padding: 6px;
-}
-
-.stats-button:hover {
-  color: var(--secondary-color);
 }
 
 .hidden {

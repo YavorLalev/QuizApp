@@ -17,4 +17,5 @@ header {
 .header-title:hover {
   color: var(--secondary-color);
   opacity: 0.7;
+  cursor: pointer;
 }
