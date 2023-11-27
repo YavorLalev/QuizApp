@@ -5,6 +5,9 @@
     <title>QuizApp</title>
     <link rel="stylesheet" href="/CSS/styles.css" />
     <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <script src="./index.js" defer></script>
   </head>
   <body>
@@ -14,16 +17,17 @@
     <main>
       <section class="card">
         <h2>What is CSS?</h2>
-        <button type="button" aria-label="Show answer" class="button">Show Answer</button>
-        
-        <div class="answer">
-          <button type="button" aria-label="hide answer" class="button">Hide answer</button>
-          <p>CSS stands for <strong>Cascading Style Sheet</strong>.</p>
-        </div>
+        <button type="button" aria-label="Show answer" class="button" data-js="answer-button">Show Answer</button>
+        <p class="hidden" data-js="answer">CSS stands for <strong>Cascading Style Sheet</strong>.</p>
+       
 
-        <button><img src="assets/bookmark_120208.png" class="card-bookmark"
-          alt="A bookmark icon"></button>
-      
+        <button type="button" data-js="toggle-bookmark">
+          <img src="assets/bookmark_120208.png" class="card-bookmark"
+          alt="A bookmark icon">
+        </button>
+
+        
+
           <ul class="card-tags">
             <li class="tag">#html</li>
             <li class="tag">#flexbox</li>
@@ -35,7 +39,7 @@
         <h2>What is the default font size used for all CSS elements?</h2>
         <button class="button" aria-label="Show answer">Show Answer</button>
 
-        <div class="answer">
+        <div class="hidden">
           <button type="button" aria-label="hide answer" class="button">Hide answer</button>
           <p><strong>16px</strong> is the default size.</p>
         </div>
@@ -54,7 +58,7 @@
 
       <section class="card">
         <h2>What is HTML?</h2>
-        <p class="answer"><strong></strong></p>
+        <p class="hidden"><strong></strong></p>
         <button class="button" aria-label="Show answer">Show Answer</button>
         
         <button><img src="assets/bookmark_120208.png" class="card-bookmark"

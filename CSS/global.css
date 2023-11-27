@@ -19,8 +19,13 @@ body {
 }
 
 body.dark {
-  background-color: rgb(43, 43, 43);
+  background-color: rgb(85, 85, 85);
   color: white;
+}
+.blue-button {
+  background-color: var(--secondary-color);
+  border-radius: 50%;
+  opacity: 0.8;
 }
 
 main {
@@ -58,8 +63,4 @@ article {
   margin: 2rem;
   padding: 0.5rem;
   max-width: 600px;
-}
-
-.current {
-  color: var(--tertiary-color);
 }

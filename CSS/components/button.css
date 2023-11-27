@@ -54,6 +54,6 @@ button {
   color: var(--secondary-color);
 }
 
-.answer {
+.hidden {
   display: none;
 }
