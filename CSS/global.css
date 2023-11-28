@@ -70,5 +70,12 @@ fieldset {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 10px;
+  gap: 30px;
+  padding: 40px;
+}
+.form-field {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
 }

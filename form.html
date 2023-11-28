@@ -16,16 +16,30 @@
       <h1 class="header-title">QuizApp</h1>
     </header>
     <main>
-      <form>
+      <form data-js="form">
         <fieldset class="form">
-          <label for="your-question">Your question:</label>
-          <textarea id="your-question" name="your-question"></textarea>
+          <div class="form-field">
+            <label for="your-question">Your question:</label>
+            <textarea
+              data-js="your-question"
+              id="your-question"
+              name="your-question"
+            ></textarea>
+          </div>
 
-          <label for="your-answer">Your answer:</label>
-          <textarea id="your-answer" name="your-answer"></textarea>
+          <div class="form-field">
+            <label for="your-answer">Your answer:</label>
+            <textarea
+              data-js="your-answer"
+              id="your-answer"
+              name="your-answer"
+            ></textarea>
+          </div>
 
-          <label for="tag">Tag:</label>
-          <input type="text" id="tag" name="tag" />
+          <div class="form-field">
+            <label for="tag">Tag:</label>
+            <input data-js="your-tag" type="text" id="tag" name="tag" />
+          </div>
 
           <button type="submit" class="submit-button">Submit</button>
         </fieldset>
