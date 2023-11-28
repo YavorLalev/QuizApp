@@ -3,5 +3,4 @@ const buttonOne = document.querySelector('[data-js="toggle-button"]');
 
 buttonOne.addEventListener("click", () => {
   bodyElement.classList.toggle("dark");
-  console.log(buttonOne);
 });

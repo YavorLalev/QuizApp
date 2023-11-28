@@ -52,7 +52,7 @@ fieldset {
   max-width: 600px;
 }
 .profile-picture {
-  max-width: 40%;
+  max-width: 120px;
   border-radius: 50%;
   border: solid 8px;
 }
@@ -70,5 +70,12 @@ fieldset {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 10px;
+  gap: 30px;
+  padding: 40px;
+}
+.form-field {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
 }
