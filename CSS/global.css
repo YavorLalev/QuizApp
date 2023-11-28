@@ -52,7 +52,7 @@ fieldset {
   max-width: 600px;
 }
 .profile-picture {
-  max-width: 40%;
+  max-width: 120px;
   border-radius: 50%;
   border: solid 8px;
 }
