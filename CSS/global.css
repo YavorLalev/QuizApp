@@ -36,12 +36,6 @@ main {
 ul {
   list-style: none;
 }
-p {
-  position: absolute;
-  bottom: 60px;
-  font-size: 0.8rem;
-  align-self: center;
-}
 
 article,
 fieldset {
@@ -70,7 +64,7 @@ fieldset {
   justify-content: flex-start;
   margin: 2rem;
   padding: 0.5rem;
-  max-width: 600px;
+  max-width: 400px;
 }
 
 .form {
@@ -80,6 +74,7 @@ fieldset {
   gap: 30px;
   padding: 40px;
 }
+
 .form-field {
   display: flex;
   flex-direction: column;
