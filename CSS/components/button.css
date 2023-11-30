@@ -70,3 +70,10 @@ button {
 .hidden {
   display: none;
 }
+
+#card-answer {
+  position: absolute;
+  bottom: 60px;
+  font-size: 0.8rem;
+  align-self: center;
+}

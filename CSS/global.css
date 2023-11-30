@@ -32,8 +32,15 @@ main {
   flex: 1;
   margin: 40px;
 }
+
 ul {
   list-style: none;
+}
+p {
+  position: absolute;
+  bottom: 60px;
+  font-size: 0.8rem;
+  align-self: center;
 }
 
 article,

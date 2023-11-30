@@ -1,10 +1,11 @@
-function bookmarkClick(event) {
-  const bookmarkIcon = event.target;
-  bookmarkIcon.classList.toggle("blue-button");
-}
-const bookmarkButton = document.querySelector('[data-js="toggle-bookmark"]');
-bookmarkButton.addEventListener("click", bookmarkClick);
+// Bookmark toggle function
+const toggleBookmark = document.querySelector('[data-js="toggle-bookmark"]');
 
+toggleBookmark.addEventListener("click", () => {
+  toggleBookmark.classList.toggle("blue-button");
+});
+
+// Answer-button toggle function
 const showAnswerButton = document.querySelector('[data-js="answer-button"]');
 const pElement = document.querySelector('[data-js="answer"]');
 
