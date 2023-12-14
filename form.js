@@ -9,7 +9,7 @@ const textInputTag = document.querySelector('[data-js="card-tag"]');
 form.addEventListener("submit", (event) => {
   event.preventDefault();
 
-  cardContainer.innerHTML = "";
+  //cardContainer.innerHTML = "";
 
   const newCard = document.createElement("li");
   newCard.classList.add("card");
@@ -20,6 +20,7 @@ form.addEventListener("submit", (event) => {
 
   const answerText = textInputAnswer.value;
   const paragraph = document.createElement("p");
+  paragraph.classList.add("card-answer");
   paragraph.textContent = answerText;
 
   //const data = {
@@ -42,7 +43,7 @@ form.addEventListener("submit", (event) => {
   button.textContent = "Show answer";
 
   button.addEventListener("click", () => {
-    console.log("iT works");
+    paragraph.classList.toggle("hidden");
   });
 
   const bookmark = document.createElement("div");

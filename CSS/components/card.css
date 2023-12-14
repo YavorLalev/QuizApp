@@ -41,3 +41,10 @@ h2 {
   border-radius: 4px;
   padding: 2px;
 }
+
+.card-answer {
+  position: absolute;
+  bottom: 60px;
+  font-size: 0.8rem;
+  align-self: center;
+}
