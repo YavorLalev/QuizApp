@@ -27,7 +27,6 @@ h2 {
 }
 
 .card-tags {
-  color: black;
   text-transform: lowercase;
   font-size: 0.9rem;
   display: flex;

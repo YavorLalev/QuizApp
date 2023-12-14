@@ -8,7 +8,6 @@
       href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@1,700&display=swap"
       rel="stylesheet"
     />
-    <script src="./index.js" defer></script>
     <script src="./form.js" defer></script>
   </head>
   <body>
@@ -21,7 +20,7 @@
           <div class="form-field">
             <label for="your-question">Your question:</label>
             <textarea
-              data-js="your-question"
+              data-js="card-question"
               id="your-question"
               name="your-question"
             ></textarea>
@@ -30,7 +29,7 @@
           <div class="form-field">
             <label for="your-answer">Your answer:</label>
             <textarea
-              data-js="your-answer"
+              data-js="card-answer"
               id="your-answer"
               name="your-answer"
             ></textarea>
@@ -38,12 +37,13 @@
 
           <div class="form-field">
             <label for="tag">Tag:</label>
-            <input data-js="your-tag" type="text" id="tag" name="tag" />
+            <input data-js="card-tag" type="text" id="tag" name="tag" />
           </div>
 
           <button type="submit" class="submit-button">Submit</button>
         </fieldset>
       </form>
+      <ul data-js="card-container"></ul>
     </main>
     <footer class="footer">
       <nav>

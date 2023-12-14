@@ -12,4 +12,5 @@ const pElement = document.querySelector('[data-js="answer"]');
 showAnswerButton.addEventListener("click", () => {
   pElement.classList.toggle("hidden");
   showAnswerButton.textContent = "hide answer";
+
 });
