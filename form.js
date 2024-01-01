@@ -20,6 +20,7 @@ form.addEventListener("submit", (event) => {
 
   const answerText = textInputAnswer.value;
   const paragraph = document.createElement("p");
+  paragraph.classList.add("hidden");
   paragraph.classList.add("card-answer");
   paragraph.textContent = answerText;
 
@@ -40,10 +41,15 @@ form.addEventListener("submit", (event) => {
 
   const button = document.createElement("button");
   button.classList.add("button");
-  button.textContent = "Show answer";
+  button.textContent = "Show Answer";
 
   button.addEventListener("click", () => {
     paragraph.classList.toggle("hidden");
+    if (button.textContent === "hide answer") {
+      button.textContent = "show answer";
+    } else {
+      button.textContent = "hide answer";
+    }
   });
 
   const bookmark = document.createElement("div");

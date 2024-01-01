@@ -23,7 +23,11 @@
               data-js="card-question"
               id="your-question"
               name="your-question"
+              maxlength="100"
             ></textarea>
+            <small class="form-characters"
+              >(<span data-js="amountLeft"></span> characters left)</small
+            >
           </div>
 
           <div class="form-field">
@@ -32,12 +36,25 @@
               data-js="card-answer"
               id="your-answer"
               name="your-answer"
+              maxlength="100"
             ></textarea>
+            <small class="form-characters"
+              >(<span data-js="amountLeft"></span> characters left)</small
+            >
           </div>
 
           <div class="form-field">
             <label for="tag">Tag:</label>
-            <input data-js="card-tag" type="text" id="tag" name="tag" />
+            <input
+              data-js="card-tag"
+              type="text"
+              id="tag"
+              name="tag"
+              maxlength="50"
+            />
+            <small class="form-characters"
+              >(<span data-js="amountLeft"></span> characters left)</small
+            >
           </div>
 
           <button type="submit" class="submit-button">Submit</button>

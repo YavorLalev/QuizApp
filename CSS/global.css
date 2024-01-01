@@ -82,3 +82,8 @@ fieldset {
   justify-content: center;
   gap: 8px;
 }
+
+.form-characters {
+  color: grey;
+  font-size: 0.7rem;
+}
